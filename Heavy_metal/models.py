@@ -268,7 +268,7 @@ class GestionusuariosUsuarios(models.Model):
     nombre = models.CharField(db_column='Nombre', max_length=100, blank=True, null=True)  # Field name made lowercase.
     apellido = models.CharField(db_column='Apellido', max_length=100, blank=True, null=True)  # Field name made lowercase.
     correo_electronico = models.CharField(db_column='Correo_Electronico', max_length=100, blank=True, null=True)  # Field name made lowercase.
-    Contraseña_Encriptada = models.CharField(db_column='Contrase▒a_Encriptada', max_length=255, blank=True, null=True)  # Field name made lowercase. Field renamed to remove unsuitable characters.
+    Contraseña_Encriptada = models.CharField(db_column='Contraseña_Encriptada', max_length=255, blank=True, null=True)  # Field name made lowercase. Field renamed to remove unsuitable characters.
     direccion = models.CharField(db_column='Direccion', max_length=255, blank=True, null=True)  # Field name made lowercase.
     telefono = models.CharField(db_column='Telefono', max_length=20, blank=True, null=True)  # Field name made lowercase.
     fecha_registro = models.DateTimeField(db_column='Fecha_Registro')  # Field name made lowercase.
