@@ -93,7 +93,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'heavy_metal',
-        'HOST': 'localhost',
+        'HOST': '192.168.128.14',
         'USER': 'gaitancarlos1993',
         'PASSWORD': 'g3Bmu9OHS',
         'PORT': '3306'
